@@ -31,6 +31,7 @@
 
     <label for="prioridade">Prioridade:</label>
     <select id="prioridade" name="prioridade" required>
+      <option value="">Selecione</option>
       <option value="baixa">Não Urgente</option>
       <option value="media">Urgente</option>
       <option value="alta">Alto Risco</option>
@@ -39,7 +40,8 @@
     <button id="botao" type="button">Cadastrar</button>
   </form>
 
-  <div id="results"></div>
+  <!-- Div para mensagens -->
+  <div id="results" style="color: red; text-align: center; margin-top: 10px;"></div>
 
   <!-- Script JS -->
   <script src="cadastroT.js"></script>
